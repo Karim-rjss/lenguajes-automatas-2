@@ -28,8 +28,8 @@ class ExprParser ( Parser ):
     literalNames = [ "<INVALID>", "'CREATE'", "'TABLE'", "'INSERT'", "'INTO'", 
                      "'VALUES'", "'SELECT'", "'FROM'", "'WHERE'", "'INNER'", 
                      "'JOIN'", "'ON'", "'PRIMARY'", "'KEY'", "'NOT'", "'NULL'", 
-                     "'SERIAL'", "'INTEGER'", "'VARCHAR'", "'DATE'", "'PRIMARY KEY'", 
-                     "'NOT NULL'", "<INVALID>", "<INVALID>", "<INVALID>", 
+                     "'SERIAL'", "'INTEGER'", "'VARCHAR'", "'DATE'", "<INVALID>", 
+                     "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                      "'='", "','", "';'", "'('", "')'", "'+'", "'*'", "'.'" ]
 
     symbolicNames = [ "<INVALID>", "CREATE", "TABLE", "INSERT", "INTO", 

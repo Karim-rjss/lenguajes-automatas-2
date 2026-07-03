@@ -19,8 +19,8 @@ null
 'INTEGER'
 'VARCHAR'
 'DATE'
-'PRIMARY KEY'
-'NOT NULL'
+null
+null
 null
 null
 null

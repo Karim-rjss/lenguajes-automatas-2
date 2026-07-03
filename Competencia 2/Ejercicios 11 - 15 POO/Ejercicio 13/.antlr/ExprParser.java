@@ -34,9 +34,9 @@ public class ExprParser extends Parser {
 		return new String[] {
 			null, "'CREATE'", "'TABLE'", "'INSERT'", "'INTO'", "'VALUES'", "'SELECT'", 
 			"'FROM'", "'WHERE'", "'INNER'", "'JOIN'", "'ON'", "'PRIMARY'", "'KEY'", 
-			"'NOT'", "'NULL'", "'SERIAL'", "'INTEGER'", "'VARCHAR'", "'DATE'", "'PRIMARY KEY'", 
-			"'NOT NULL'", null, null, null, "'='", "','", "';'", "'('", "')'", "'+'", 
-			"'*'", "'.'"
+			"'NOT'", "'NULL'", "'SERIAL'", "'INTEGER'", "'VARCHAR'", "'DATE'", null, 
+			null, null, null, null, "'='", "','", "';'", "'('", "')'", "'+'", "'*'", 
+			"'.'"
 		};
 	}
 	private static final String[] _LITERAL_NAMES = makeLiteralNames();
